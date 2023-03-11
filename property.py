@@ -29,13 +29,13 @@ class Person:
         self._gender = gender
 
 
-person = Person("Alice", 25, "female")
+person = Person("Jana", 25, "female")
 print(person.name)
 print(person.age)
 print(person.gender)
 
 print("---------------------------------")
-person.name = "Bob"
+person.name = "Steve"
 person.age = 30
 person.gender = "male"
 print(person.name)
